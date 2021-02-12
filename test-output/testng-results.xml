@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="106930" started-at="2021-02-11T21:42:38 EST" finished-at="2021-02-11T21:44:25 EST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunnerPackage.JustEatTestRunner@22eeefeb]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="106930" started-at="2021-02-11T21:42:38 EST" finished-at="2021-02-11T21:44:25 EST">
+      <class name="testRunnerPackage.JustEatTestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testRunnerPackage.JustEatTestRunner@22eeefeb]" name="setUpClass" is-config="true" duration-ms="972" started-at="2021-02-11T21:42:38 EST" finished-at="2021-02-11T21:42:39 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunnerPackage.JustEatTestRunner@22eeefeb]" name="runScenario" duration-ms="22942" started-at="2021-02-11T21:42:39 EST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-02-11T21:43:02 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for restaurants in an area"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Use the website to find restaurants and order food]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunnerPackage.JustEatTestRunner@22eeefeb]" name="runScenario" duration-ms="34679" started-at="2021-02-11T21:43:02 EST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-02-11T21:43:37 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Choose the Indian restaurant option from the All Cuisines A-Z from left side Menu"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Use the website to find restaurants and order food]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunnerPackage.JustEatTestRunner@22eeefeb]" name="runScenario" duration-ms="48220" started-at="2021-02-11T21:43:37 EST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-02-11T21:44:25 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Choose one Indian restaurant and proceed order until Go to Payment section"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Use the website to find restaurants and order food]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunnerPackage.JustEatTestRunner@22eeefeb]" name="tearDownClass" is-config="true" duration-ms="44" started-at="2021-02-11T21:44:25 EST" finished-at="2021-02-11T21:44:25 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunnerPackage.JustEatTestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
